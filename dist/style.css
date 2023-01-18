@@ -1,0 +1,177 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 75%;
+}
+.container .ads-header {
+  width: 100%;
+  height: 323px;
+  background-color: #93FF82;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .ads-header h1 {
+  padding-top: 120px;
+}
+.container header {
+  width: 100%;
+  background-color: #F7F7F7;
+}
+.container header .steppe {
+  margin-top: 32px;
+  background-color: #000;
+  border-radius: 10px;
+  border: 0;
+  height: 72px;
+  width: 97.77%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px;
+}
+.container header .steppe-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 271px;
+  margin: 0;
+}
+.container header .steppe img {
+  width: 194px;
+  height: 44px;
+  margin: 0;
+}
+.container header .steppe .search {
+  width: 580px;
+  height: 48px;
+  background-color: #302C2C;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 14px;
+}
+.container header .steppe .search input {
+  width: 400px;
+  background-color: #302C2C;
+  border: none;
+  align-self: center;
+  outline: none;
+}
+.container header .steppe .search input:focus {
+  border: #302C2C;
+}
+.container header .steppe .search img {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+.container header .steppe .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 64px;
+  margin: 0;
+}
+.container header .steppe .social .social-steppe {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin: 0;
+}
+.container header .steppe .social .social-steppe img {
+  width: 8px;
+  height: 8px;
+  align-self: center;
+}
+.container header .steppe .social .social-steppe p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFF;
+}
+.container header .subheader-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 39px;
+}
+.container header .subheader-wrap .subheader {
+  width: 97.77%;
+  margin: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+}
+.container header .subheader-wrap .subheader-tag {
+  padding: 16px 20px;
+  border: 2px solid #808080;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #808080;
+  margin: 0;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.container header .subheader-wrap .subheader-tag:first-child {
+  background-color: #000;
+  border: none;
+  color: #FFFF;
+}
+.container header .subheader-wrap .subheader-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 21px;
+}
+.container header .subheader-wrap .subheader-button img {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.container header .subheader-wrap .subheader-button .on-off {
+  width: 84px;
+  height: 48px;
+  background-color: #000;
+  border-radius: 32px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 4px;
+  gap: 13.5px;
+}
+.container header .subheader-wrap .subheader-button .on-off img {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+}
+.container header .subheader-wrap .subheader-button .on-off #sun {
+  width: 13.86px;
+  height: 16px;
+}
+.container .kimep {
+  width: 22.72%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .kimep .grey {
+  width: 296px;
+  height: 182px;
+  border-radius: 10px;
+  background-color: #E3E3E3;
+}
+.container .kimep h5 {
+  font-size: 18px;
+  font-weight: 800;
+  text-align: left;
+}
