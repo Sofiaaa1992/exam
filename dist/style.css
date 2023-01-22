@@ -815,6 +815,7 @@ footer .ideas .ideasfor {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   gap: 52px;
   padding: 16px;
   margin: 0;
@@ -843,9 +844,11 @@ footer .ideas .ideasfor button {
 }
 footer .ideas .terms {
   width: 10.5%;
+  padding-top: 36;
   background-color: #000;
   border-radius: 10px;
   margin: 0;
+  padding: 36px 36.27px 37.57px 45.29px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -853,6 +856,7 @@ footer .ideas .terms {
 }
 footer .ideas .terms p {
   writing-mode: vertical-rl;
+  width: 79.8%;
   font-size: 28px;
   font-weight: 600;
   color: #fff;
@@ -869,6 +873,47 @@ footer .ideas .icons {
   background-color: #fff;
   border-radius: 10px;
   margin: 0;
+  padding: 24px 42.07px 24.73px 45px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+footer .ideas .icons #inst {
+  margin: 0;
+  width: 45px;
+  height: 45px;
+}
+footer .ideas .icons #tg {
+  position: absolute;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  top: 59px;
+  left: 203px;
+}
+footer .ideas .icons #fb {
+  position: absolute;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  top: 139px;
+  left: 65px;
+}
+footer .ideas .icons #vk {
+  position: absolute;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  top: 186px;
+  left: 183px;
+}
+footer .ideas .icons #youtube {
+  position: absolute;
+  margin: 0;
+  width: 50px;
+  height: 38px;
+  top: 297.29px;
+  left: 92.08px;
 }
 footer .bg-logo {
   margin-top: 60px;
