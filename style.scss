@@ -327,6 +327,10 @@
         border-radius: 10px;
         padding: 12px 16px;
 
+        .news-tablet-first, .news-tablet-second{
+            display: none;
+        }
+
         h6{
             font-size: 16px;
             font-weight: 700;
@@ -460,6 +464,10 @@
 }
 }
 
+.red-black-tab{
+    display: none;
+}
+
 .pink-green{
     width: 100%;
     display: flex;
@@ -577,6 +585,9 @@
         }
     }
 }
+.pink-tab{
+    display: none;
+}
 
 .a5{
     width: 97.777%;
@@ -584,6 +595,7 @@
     background-color: #93FF82;
     padding-top: 140.5px;
     margin-top: 24px;
+    margin-bottom: 24px;
     h1{
         font-size: 48px;
         line-height: 58.09px;
@@ -692,7 +704,9 @@
         }
 
     }
-
+.yellow-blocks-tab{
+    display: none;
+}
 .test{
     .test-title{
         margin-top: 32px;
@@ -911,6 +925,9 @@ footer{
             }
         }
     }
+    .progressive-site-tab, .footer-button-tab, .ideasfor-tab, .footer-icons-tab{
+        display: none;
+    }
 
     .ideas{
         width: 97.777%;
@@ -1039,6 +1056,7 @@ footer{
     @media screen and (max-width: 766px) {
         body {
           width: 100%;
+
           .container{
             width: 766px;
             margin: 0;
@@ -1266,6 +1284,485 @@ footer{
                 }
                 
                 }
+            
+
+            .red-black{
+                display: none;
+                
             }
+
+            .red-black-tab{
+                padding-left: 16px;
+                padding-right: 0;
+                width: 100%;
+                margin: 0;
+                margin-top: 24px;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                gap: 8px;
+                overflow: hidden;
+
+                &-block{
+                    width: 359px;
+                    height: 363px;
+                    background-color: #000;
+                    border-radius: 10px;
+                    padding: 12px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    margin: 0;
+                    .red-block{
+                        width: 335px;
+                        height: 240px;
+                        border-radius: 6px;
+                        background-color: #EA2E34;
+                    }
+                    .bottom-date-tab{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        gap: 11.4px;
+                        color: #fff;
+                        font-size: 12px;
+                        line-height: 16.8px;
+                        margin: 0;
+                        p{
+                            margin: 0;
+                        }
+                        .clock-tab{
+                            display: flex;
+                            flex-direction: row;
+                            gap: 4.38px;
+                            margin: 0;
+                            img{
+                                width: 10.52px;
+                                height: 10.52px;
+                                align-self: center;
+                            }
+
+                        }
+
+                    }
+                    .text-tab{
+                        font-size: 20px;
+                        line-height: 20px;
+                        font-weight: 700;
+                        color: #fff;
+                        margin: 0;
+                    }
+
+                }
+
+            }
+
+            .pink-green{
+                display: none;
+            }
+
+            .pink-tab{
+                margin-top: 24px;
+                padding: 0px 16px;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                .pink-tab-first, .pink-tab-second{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 18px;
+                    .pink-tab-block{
+                    &-square{
+                        width: 359px;
+                        height: 281px;
+                        background-color: #FFC7F3;
+                        border-radius: 10PX;
+                    }
+                    .pink-tab-subheader{
+                        background-color: #fff;
+                        border-radius: 10px;
+                        padding: 12px;
+                        width: 359px;
+                        height: fit-content;
+                    }
+                    .bottom-date-tab{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        gap: 11.4px;
+                        color: #000;
+                        font-size: 12px;
+                        line-height: 16.8px;
+                        margin: 0;
+                        padding: 12.5px 0px 12px 0px;
+                        p{
+                            margin: 0;
+                        }
+                        .clock-tab{
+                            display: flex;
+                            flex-direction: row;
+                            gap: 4.38px;
+                            margin: 0;
+                            img{
+                                width: 10.52px;
+                                height: 10.52px;
+                                align-self: center;
+                            }
+
+                        }
+
+                    }
+                    .nasa{
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 20px;
+                        color: #000;
+                    }
+                }
+                }
+
+
+            }
+            .a5, .yellow-blocks{
+                display: none;
+            }
+
+            .yellow-blocks-tab{
+                margin: 24px 16px;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                .yellow-blocks-tab-first, .yellow-blocks-tab-second{
+                    margin: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 18px;
+                    .yellow-blocks-tab-wrap{
+                        display: flex;
+                        flex-direction: column;
+                        .yellow-tab{
+                           width: 359px;
+                           height: 280px;
+                           background-color: #FFCB45;
+                           border-radius: 10px; 
+                        }
+                        .grey-tab{
+                            width: 359px;
+                            height: fit-content;
+                            padding: 12px 12px 9px 12px;
+                            background-color: #302C2C;
+                            border-radius: 10px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+                            h3{
+                                margin: 0;
+                                font-size: 36px;
+                                font-weight: 800;
+                                color: #ffff;
+                            }
+                            p{
+                                color: #fff;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 21.6px;
+                                margin: 0;
+                            }
+                            .bottom-date-tab{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: flex-start;
+                                gap: 11.4px;
+                                color: #000;
+                                font-size: 12px;
+                                line-height: 16.8px;
+                                margin: 0;
+                                padding-top: 4px;
+                                p{
+                                    margin: 0;
+                                    font-size: 12px;
+                                }
+                                .clock-tab{
+                                    display: flex;
+                                    flex-direction: row;
+                                    gap: 4.38px;
+                                    margin: 0;
+                                    img{
+                                        width: 10.52px;
+                                        height: 10.52px;
+                                        align-self: center;
+                                    }
+        
+                                }
+        
+                            }
+                        }
+                    }
+                }
+            }
+
+            .test{
+                .test-title{
+                    .green-block{
+                        width: 140px;
+                        height: 140px;
+                    }
+                    .red-test{
+                        width: 60px;
+                    }
+                    .title{
+                        padding: 24px 32px 24px 24px;
+                        height: 140px;
+                        p{
+                            width: 480px;
+                            height: 92px;
+                            margin: 0;
+                            text-align: left;
+                            font-size: 24px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+
+           footer{
+            margin: 24px 16px;
+            .results{
+                display: none;
+            }
+            .weekly-newsletter{
+                padding: 32px 24px;
+                gap: 24.93px;
+                img{
+                    margin: 0;
+                    width: 211px;
+                    height: 49px;
+                }
+                p{
+                    font-size: 48px;
+                    font-weight: 600;
+                    color: #292929;
+                    line-height: 52.8px;
+                }
+            }
+
+            .email-subscribe{
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                margin: auto;
+                margin-top: 16px;
+                padding: 24px;
+                .email{
+                    width: 100%;
+                    height: 98px;
+                        text-align: center;
+                        display: flex;
+                    }
+                    input{
+                        padding: 0;
+                        align-self: center;
+                        text-transform: capitalize;
+                        color: #BEBEBE;
+                        font-weight: 500;
+                        font-size: 51.25px;
+                        line-height: 61.5px;
+                        text-align: center;
+                }
+                .btn{
+                    width: 100%;
+                    height: 114px;
+                    margin: 0;
+                    button{
+                        text-transform: capitalize;
+                        font-size: 51.25px;
+                        font-weight: 600;
+                        margin: 0;
+                        padding: 0;
+                        height: 114px;
+                    }
+                }
+
+            }
+
+            .progressive{
+                display: none;
+            }
+            .progressive-site-tab{
+                margin-top: 16px;
+                width: 736px;
+                height: 736px;
+                background-color: #fff;
+                border-radius: 20.5px;
+                padding: 24px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                img{
+                    width: 506px;
+                    height: 112px;
+                    padding: 0;
+                    margin: 0;
+                }
+                p{
+                    font-size: 48px;
+                    font-weight: 800;
+                    margin: 0;
+                }
+
+            }
+
+            .footer-button-tab{
+                margin: auto;
+                margin-top: 16px;
+                width: 100%;
+                height: 399px;
+                border-radius: 10px;
+                background-color: #000;
+                padding: 24px;
+                p{
+                    font-size: 48px;
+                    font-weight: 600;
+                    line-height: 52.8px;
+                    color: #fff;
+                    margin: 0;
+                    padding-bottom: 35px; 
+                }
+                button{
+                    width: 100%;
+                    height: 98px;
+                    border-radius: 10px;
+                    background-color: #EA2E34;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 36px;
+                    font-weight: 800;
+                    border: none;
+                    margin-top: -11px;
+                }
+            }
+
+            .ideas{
+                display: none;
+            }
+            .ideasfor-tab{
+                margin: 16px auto;
+                width: 100%;
+                height: 345px;
+                background-color: #000;
+                border-radius: 20.5px;
+                padding: 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 45px;
+                h5{
+                    font-size: 42px;
+                    font-weight: 600;
+                    line-height: 46.2px;
+                    color: #fff;
+                    padding: 0;
+                    height: 138px;
+                }
+                button{
+                    width: 100%;
+                    height: 114px;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    font-size: 48px;
+                    font-weight: 600;
+                }
+            }
+
+            .footer-icons-tab{
+                margin: 16px auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 16px;
+
+                .terms-tab{
+                    margin: 0;
+                    width: 164px;
+                    height: 637px;
+                    border-radius: 10px;
+                    background-color: #000;
+                    font-size: 36px;
+                    font-weight: 800;
+                    color: #fff;
+                    text-align: center;
+                    writing-mode: vertical-lr;
+                    transform: rotate(180deg);
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .icons-tab{
+                        width: 555px;
+                        height: 637px;
+                        background-color: #fff;
+                        border-radius: 10px;
+                        margin: 0;
+                        padding: 49.6px 69.5px 59.4px 92.16px;
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+            
+                        #inst-tab{
+                            margin: 0;
+                            width: 92.16px;
+                            height: 92.17px;
+                        }
+                        #tg-tab{
+                            position: absolute;
+                            margin: 0;
+                            width: 102px;
+                            height: 102px;
+                            top: 120.88px;
+                            left: 382px;
+                        }
+                        #fb-tab{
+                            position: absolute;
+                            margin: 0;
+                            width: 102.5px;
+                            height: 102.5px;
+                            top: 284.96px;
+                            left: 100.46px;
+                        }
+                        #vk-tab{
+                            position: absolute;
+                            margin: 0;
+                            width: 102.5px;
+                            height: 102.5px;
+                            top: 381px;
+                            left: 342.38px;
+                        }
+                        #youtube-tab{
+                            position: absolute;
+                            margin: 0;
+                            width: 102px;
+                            height: 78px;
+                            top: 499.77px;
+                            left: 187.97px;
+                        }
+                    } 
+                }
+            
+            .bg-logo{
+                width: 100%;
+                height: 180px;
+                margin: 16px auto;
+                img{
+                    width: 736px;
+                    height: 166px;
+                    margin-bottom: 16px;
+                }
+            }
+
+           }}
+
+               
         
 } }
