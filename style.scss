@@ -206,7 +206,7 @@
         border-radius: 10px;
         .grey-h5{
             .grey{
-            width: 100%;
+            width: 296px;
             height: 182px;
             border-radius: 10px;
             background-color: #E3E3E3;
@@ -216,6 +216,7 @@
             font-size: 18px;
             font-weight: 800;
             text-align: left;
+            padding-left: 8px;
             padding-bottom: 12px;
             }
             h6, h3{
@@ -232,7 +233,7 @@
             .grey-square72{
             width: 72px;
             height: 72px;
-            background-color: #808080;
+            background-color: #BEBEBE;
             border-radius: 10px; 
             }
             
@@ -317,6 +318,9 @@
             overflow: hidden;
             display: flex;
             flex-wrap: wrap;
+        }
+        .bottom-date-mob, .bottom-date-tab, h2, p{
+            display: none;
         }
     }
 
@@ -758,6 +762,11 @@
             }
         }
     }}
+.want-more-mob{
+    display: none;
+}
+.pink-tab-2{
+    display: none;
 }
 
 footer{
@@ -1051,8 +1060,16 @@ footer{
     .bg-logo{
         margin-top: 60px;
         width: 97.77%; 
+        img{
+            width: 100%;
+        }
     }
-}    
+   
+} 
+    nav{
+        display: none;
+    }}   
+
     @media screen and (max-width: 766px) {
         body {
           width: 100%;
@@ -1159,6 +1176,10 @@ footer{
                     order: 1;
                     padding: 16px 16px 24px 16px;
                     box-shadow: none;
+
+                    .bottom-date-mob, h2, p{
+                        display: none;
+                    }
                 }
                 .kimep{
                     margin-top: 16px;
@@ -1361,7 +1382,7 @@ footer{
                 display: none;
             }
 
-            .pink-tab{
+            .pink-tab, .pink-tab-2{
                 margin-top: 24px;
                 padding: 0px 16px;
                 display: flex;
@@ -1383,6 +1404,7 @@ footer{
                         background-color: #fff;
                         border-radius: 10px;
                         padding: 12px;
+                        padding-top: 0PX;
                         width: 359px;
                         height: fit-content;
                     }
@@ -1424,6 +1446,7 @@ footer{
 
 
             }
+
             .a5, .yellow-blocks{
                 display: none;
             }
@@ -1505,17 +1528,36 @@ footer{
             }
 
             .test{
+                width: 766px;
+                margin: 24px auto;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                
+                gap: 8px;
                 .test-title{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-self: center;
+                    padding: 0;
+                    margin: 0;
                     .green-block{
                         width: 140px;
                         height: 140px;
+                        border-radius: 10px;
+                        margin: 0;
+                        padding: 0;
                     }
                     .red-test{
                         width: 60px;
+                        margin: 0;
                     }
                     .title{
                         padding: 24px 32px 24px 24px;
                         height: 140px;
+                        width: 536px;
+                        margin: 0;
                         p{
                             width: 480px;
                             height: 92px;
@@ -1527,15 +1569,27 @@ footer{
                     }
                 }
             }
+            .pink-tab-2{
+                display: none;
+            }
 
+            .want-more-mob{
+                display: none;
+            }
            footer{
-            margin: 24px 16px;
+            margin: 24px auto;
+
             .results{
                 display: none;
             }
             .weekly-newsletter{
+                width: 736px;
+                margin: 24px auto;
                 padding: 32px 24px;
                 gap: 24.93px;
+                display: flex;
+                align-self: center;
+            
                 img{
                     margin: 0;
                     width: 211px;
@@ -1550,6 +1604,7 @@ footer{
             }
 
             .email-subscribe{
+                width: 736px;
                 display: flex;
                 flex-direction: column;
                 gap: 24px;
@@ -1616,9 +1671,11 @@ footer{
             }
 
             .footer-button-tab{
+                display: flex;
+                flex-direction: column;
                 margin: auto;
                 margin-top: 16px;
-                width: 100%;
+                width: 736px;
                 height: 399px;
                 border-radius: 10px;
                 background-color: #000;
@@ -1650,7 +1707,7 @@ footer{
             }
             .ideasfor-tab{
                 margin: 16px auto;
-                width: 100%;
+                width: 736px;
                 height: 345px;
                 background-color: #000;
                 border-radius: 20.5px;
@@ -1659,12 +1716,16 @@ footer{
                 flex-direction: column;
                 gap: 45px;
                 h5{
+                    display: flex;
                     font-size: 42px;
                     font-weight: 600;
                     line-height: 46.2px;
                     color: #fff;
                     padding: 0;
                     height: 138px;
+                }
+                .h6-mob{
+                    display: none;
                 }
                 button{
                     width: 100%;
@@ -1757,12 +1818,556 @@ footer{
                 img{
                     width: 736px;
                     height: 166px;
-                    margin-bottom: 16px;
                 }
             }
 
-           }}
+           }
+           nav{
+            display: none;
+           }
+        }
 
                
         
 } }
+
+@media screen and (max-width: 375px) {
+    body{
+        width: 100%;
+        .container{
+            width: 375px;
+            .ads-header{
+                height: 84px;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                gap: 0;
+                padding-bottom: 1px;
+                align-items: center;
+                h1{
+                    padding: 0;
+                    margin: 0;
+                    font-size: 48px;
+                    line-height: 56.09px;
+                    font-weight: 500;
+                }
+                h2{
+                    margin: 0;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+            }
+            header{
+                margin: 8px auto;
+                width: 375px;
+                overflow: hidden;
+
+                .steppe{
+                    display: flex;
+                    justify-content: center;
+                    width: 359px;
+                    margin: auto;
+                    align-self: center;
+                    .steppe-search{
+                        .search, .settings, .on-off{
+                            display: none;
+                        }
+
+                    .social{
+                        display: none;
+                    }}
+                }
+                .subheader-wrap{
+                    display: none;
+                }
+            }
+
+            main{
+                .title{
+                    padding: 12px;
+                    h1{
+                        display: none;
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    .bottom-date-mob{
+                        display: flex;
+                        margin: 0;
+                        align-self: start;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        gap: 11.4px;
+                        color: #302C2C;
+                        font-size: 12px;
+                        line-height: 16.8px;
+                        margin: 0;
+                        p{
+                            display: flex;
+                            margin: 0;
+                            font-size: 12px;
+
+                            color: #000;
+                        }
+                        .clock-mob{
+                            margin: 0;
+                            display: flex;
+                            flex-direction: row;
+                            gap: 4.38px;
+                            margin: 0;
+                            img{
+                                width: 14px;
+                                height: 14px;
+                                align-self: center;
+                            }
+
+                        }
+                    }
+                    h2{
+                        display: flex;
+                        font-weight: 700;
+                        font-size: 24px;
+                        font-weight: 24px;
+                        margin: 0;
+                        align-self: flex-start;
+                    }
+                    p{
+                        display: flex;
+                      font-weight: 400;
+                      font-size: 18px;
+                      line-height: 21.6px;  
+                      margin: 0;
+                      align-self: flex-start;
+                    }
+                }
+                .kimep{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 12px;
+
+                    .grey-h5{
+                        display: flex;
+                        .grey{
+                            align-self: center;
+                            width: 335px;
+                            height: 182px;
+                        }
+                        h5, h3{
+                            display: none;
+                        }
+                        h6{
+                            display: flex;
+                            justify-content: flex-start;
+                            align-self: flex-start;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 20px;
+                            margin: 0px;
+                            padding: 0;
+                        }
+                    }
+
+                    .steppe-tag-wrap{
+                        width: 100%;
+                        gap: 8px;
+                        .steppe-tag{
+                            width: 100%;
+                            .grey-square72{
+                                width: 72px;
+                                height: 72px;
+                            }
+                        }
+                        .steppe-tag-interpreneur{
+                            .green-tag{
+                                border: none;
+                            }
+                            h4{
+                                display: flex;
+                                font-size: 16px;
+                            }
+                            h6{
+                                display: none;
+                            }
+                        }
+                    }
+                    
+                }
+                .news{
+                    padding: 12px;
+                }
+            }
+            .red-black{
+                display: none;
+            }
+
+            .red-black-tab{
+                align-self: center;
+                padding: 0;
+                margin: 8px;
+                margin-top: 16px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .pink-green{
+                display: none;
+            }
+            .pink-tab, .pink-tab-2{
+                padding: 0;
+                margin: 8px;
+                margin-top: 16px;
+                display: flex;
+                flex-direction: column;
+                .pink-tab-first{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .pink-tab-second{
+                    display: flex;
+                    flex-direction: column;
+                    .pink-tab-block:nth-last-child(2){
+                        display: none;
+                    }
+                }
+                
+            }
+            .a5, .yellow-blocks{
+                display: none;
+
+            }
+            .yellow-blocks-tab{
+                padding: 0;
+                margin: 8px;
+                margin-top: 16px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                .yellow-blocks-tab-first, .yellow-blocks-tab-second{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                }
+            }
+
+            .test{
+                width: 375px;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                gap: 8px;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                .test-title{
+                    display: flex;
+                    width: 375px;
+                    padding: 0;
+                    margin: 0;
+                    .green-block{
+                        width: 86px;
+                        height: 86px;
+                        border-radius: 10px;
+                    }
+                    .red-test{
+                        width: 24px;
+                        height: 86px;
+                        p{
+                            font-weight: 400;
+                            font-size: 14px;
+                            text-transform: capitalize;
+                        }
+                    }
+                    .title{
+                        width: 249px;
+                        height: 86px;
+                        margin: 0;
+                        padding: 12px;
+                        padding-right: 36px;
+                        overflow: hidden;
+                        background-color: #000;
+                         p{
+                            overflow: hidden;
+                            width: 225px;
+                            height: 50px;
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #fff;
+                         }
+                    }
+
+                }
+            }
+
+            .pink-tab-2{
+                display: flex;
+            }
+            .want-more-mob{
+                margin: 8px;
+                width: 359px;
+                height: 64px;
+                background-color: #000;
+                border-radius: 10PX;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    font-weight: 600;
+                    font-style: 25px;
+                    color: #fff;
+                    text-transform: uppercase;
+                   
+
+                }
+            }
+            footer{
+                padding: 0;
+                margin: 8px;
+                .results{
+                    display: none;
+                }
+                .weekly-newsletter{
+                    margin-top: 8px;
+                    width: 359px;
+                    height: 149px;
+                    padding: 16px 12px 12px 12px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 13px;
+                    img{
+                        width: 103px;
+                        height: 24px;
+                    }
+                    p{
+                        font-weight: 700;
+                        font-size: 25px;
+                        line-height: 27.5px;
+                    }
+                }
+
+                .email-subscribe{
+                    width: 100%;
+                    height: 144px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 16px;
+                    padding: 12px;
+                    .email{
+                        height: 48px;
+                        padding: 0;
+                        input{
+                            height: 40px;
+                            padding: 0;
+                            font-size: 25px;
+                            font-weight: 500;
+                            text-transform: capitalize;
+                        }
+                    }
+                    .btn{
+                        button{
+                        font-size: 25px;
+                        font-weight: 600;
+                        height: 56px;
+                    }}
+                }
+
+                .progressive{
+                    display: none;
+                }
+                .progressive-site-tab{
+                    width: 359px;
+                    height: 359px;
+                    margin-top: 8px;
+                    display: flex;
+                    
+                    img{
+                        width: 247px;
+                        height: 55px;
+                    }
+                    p{
+                        font-size: 25px;
+                        font-weight: 600;
+                        line-height: 27.5px;
+                    }
+                }
+
+                .footer-button-tab{
+                    display: flex;
+                    width: 359px;
+                    height: 212px;
+                    flex-direction: column;
+                    gap: 16px;
+                    padding: 12px;
+                    justify-content: left;
+                    p {
+                        font-size: 25px;
+                        font-weight: 800;
+                        line-height: 27.5px;
+                        padding: 0;
+                        height: 28px;
+                        
+                    }
+                    button{
+                        height: 56px;
+                        margin-top: 0px;
+                        letter-spacing: -1.9%;
+                        font-size: 25px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                    }
+
+                }
+
+                .ideasfor{
+                    display: none;
+                }
+                .ideasfor-tab{
+                    width: 359px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 49px;
+                    padding: 12px;
+                    height: 204px;
+                    h5{
+                        display: none;
+                    }
+                    .h6-mob{
+                        display: flex;
+                        font-size: 25px;
+                        font-weight: 600;
+                        line-height: 25px;
+                        letter-spacing: -1.9%;
+                        color: #fff;
+                        margin: 0;
+                    }
+
+                    button{
+                        height: 56px;
+                        font-size: 25px;
+                        font-weight: 600;
+                        border: none;
+                    }
+
+                }
+                .footer-icons-tab{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 8px;
+                    margin: 8px;
+
+                    .terms-tab{
+                        width: 80px;
+                        height: 311px;
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+                        padding: 0;
+                            padding-bottom: 14px;
+                        p{
+                            width: 20px;
+                            height: 311px;
+                            font-size: 18px;
+                            font-weight: 800;
+                            display: flex;
+                            align-self: center;
+                            justify-content: center;
+                        }}
+
+                    .icons-tab{
+                        width: 271px;
+                        height: 311px;
+                        position: relative;
+                        padding: 24px 45px;
+
+                        #inst-tab{
+                            position: absolute;
+                            width: 45px;
+                            height: 45px;
+                        }
+                        #tg-tab{
+                            position: absolute;
+                            width: 49px;
+                            height: 50px;
+                            top: 59px;
+                            left: 187px;
+                        }
+                        #fb-tab{
+                            position: absolute;
+                            width: 50px;
+                            height: 50px;
+                            top: 147px;
+                            left: 49px;
+                        }
+                        #vk-tab{
+                            position: absolute;
+                            width: 50px;
+                            height: 50px;
+                            top: 186px;
+                            left: 167px;
+                        }
+                        #youtube-tab{
+                            position: absolute;
+                            width: 50px;
+                            height: 38px;
+                            top: 244px;
+                            left: 92px;
+                        }
+                    }    
+                    
+                }
+
+                .bg-logo{
+                    padding-bottom: 0;
+                    height: fit-content;
+                    margin-bottom: 16px;
+                    img{
+                        width: 359px;
+                        height: 81px;
+                        padding-bottom: 0;
+                    }
+                }
+
+
+            }
+
+            nav{
+                display: flex;
+                width: 100%;
+                margin: 0;
+                height: 62px;
+                background-color: #000;
+                display: flex;
+                flex-direction: row;
+                position: sticky;
+                bottom: 0;
+                margin: auto;
+                align-self: auto;
+
+                .link{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 6px;
+                    padding-top: 10px;
+                a, #steppe-white{
+                    font-size: 13px;
+                    font-weight: 500;
+                    text-align: center;
+                    text-decoration: none;
+                    color: #7777;
+                    align-self: center;
+                    letter-spacing: 0.03em;
+                }
+                #steppe-white{
+                    color: #ffff;
+                } 
+            }}
+
+
+        }
+    }
+}
